@@ -79,6 +79,10 @@ footer li {
   padding-bottom: 3px;
 }
 
+footer a {
+  color: #3a6ba5;
+}
+
 h1,
 .fs36 {
   font-size: 36px;
