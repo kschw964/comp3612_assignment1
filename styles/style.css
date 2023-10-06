@@ -70,7 +70,7 @@ footer {
 }
 
 footer li {
-  background-image: url("/images/checkmark.svg");
+  background-image: url("images/checkmark.svg");
   background-size: 24px;
   background-repeat: no-repeat;
   padding-left: 26px;
