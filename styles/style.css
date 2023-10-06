@@ -1,14 +1,8 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
 body {
   background-color: #e5e9ef;
   padding: 20px;
   font-family: sans-serif;
   font-size: 18px;
-  font-weight: 300;
 }
 
 footer,
@@ -20,7 +14,8 @@ main div:nth-of-type(2) {
 main {
   background-color: #e5e9ef;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-  margin-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 30px;
   text-align: center;
   width: 910px;
 }
@@ -31,6 +26,7 @@ main div {
   background-color: white;
 }
 
+/* Make the elements fit onto one line, otherwise it would wrap */
 main div:not(div:first-of-type) {
   margin-left: -2px;
 }
@@ -45,6 +41,11 @@ main li {
   padding-bottom: 20px;
 }
 
+/* Just there to work around the margin collapsing "feature" of css */
+main li:last-of-type {
+  padding-top: 40px;
+}
+
 main a {
   text-decoration: none;
   background-color: #3a6ba5;
@@ -52,7 +53,6 @@ main a {
   border-radius: 2px;
   padding: 20px;
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.4);
-  font-weight: 600;
 }
 
 main a:hover {
@@ -79,10 +79,6 @@ footer li {
   padding-bottom: 3px;
 }
 
-/* main div:first-of-type ul li:first-of-type {
-    background-color: #5bb189;
-} */
-
 h1,
 .fs36 {
   font-size: 36px;
@@ -103,6 +99,7 @@ h3,
 }
 
 h1,
+main a,
 .fw6 {
   font-weight: 600;
 }
@@ -112,6 +109,7 @@ h1,
 }
 
 h3,
+body,
 .fw3 {
   font-weight: 300;
 }
