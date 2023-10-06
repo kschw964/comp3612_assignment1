@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+form {
+  background-color: var(--color-neutral-100);
+  padding: 10px;
+  margin: 30px;
+}
+
+section {
+  background-color: var(--color-neutral-200);
+  padding: 18px;
+  margin: 40px;
+}
+
+h1,
+table caption {
+  color: white;
+}
+
+h1 {
+  background-color: var(--color-primary-1-800);
+  text-align: center;
+  font-weight: 500;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  top: 10px;
+  left: 20%;
+}
+
+table caption,
+th {
+  font-weight: 400;
+}
+
+table caption {
+  background-color: var(--color-primary-1-600);
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: var(--color-primary-1-050);
+}
+
+th {
+  margin: 0;
+}
+
+td {
+  padding: 10px;
+}
+
+td:nth-of-type(3) {
+  font-style: italic;
+}
+
+tr:not(tr:last-of-type) {
+  border-bottom: 1px solid black;
+}
+
+td > img {
+  width: 100px;
+}
+
+input[type="submit"] {
+  background-color: var(--color-primary-1-500);
+}
+
+input[type]:not(input[type="checkbox"]),
+select {
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+button:first-of-type {
+  background-color: var(--color-primary-1-300);
+  border: 0;
+  border-radius: 4px;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+button:first-of-type:hover {
+  background-color: var(--color-primary-1-500);
+}

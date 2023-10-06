@@ -1,0 +1,117 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+  background-color: #e5e9ef;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer,
+main div:nth-of-type(2) {
+  background-color: #2f4f4f;
+  color: white;
+}
+
+main {
+  background-color: #e5e9ef;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  text-align: center;
+  width: 910px;
+}
+
+main div {
+  display: inline-block;
+  width: 300px;
+  background-color: white;
+}
+
+main div:not(div:first-of-type) {
+  margin-left: -2px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+main li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main a {
+  text-decoration: none;
+  background-color: #3a6ba5;
+  color: white;
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+main a:hover {
+  background-color: #437cbf;
+}
+
+main li:nth-child(odd) {
+  background-color: rgba(47, 59, 64, 0.35);
+}
+
+footer {
+  width: 870px;
+  padding: 16px;
+  padding-left: 40px;
+}
+
+footer li {
+  background-image: url("/images/checkmark.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  padding-left: 26px;
+  margin: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* main div:first-of-type ul li:first-of-type {
+    background-color: #5bb189;
+} */
+
+h1,
+.fs36 {
+  font-size: 36px;
+}
+
+h2,
+.fs24 {
+  font-size: 24px;
+}
+
+h3,
+.fs18 {
+  font-size: 18px;
+}
+
+.fw8 {
+  font-weight: 800;
+}
+
+h1,
+.fw6 {
+  font-weight: 600;
+}
+
+.fw4 {
+  font-weight: 400;
+}
+
+h3,
+.fw3 {
+  font-weight: 300;
+}
