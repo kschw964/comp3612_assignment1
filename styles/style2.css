@@ -21,8 +21,13 @@ section {
 }
 
 h1,
-table caption {
+table caption,
+input[type="submit"] {
   color: white;
+}
+
+table caption {
+  font-size: 1.25em;
 }
 
 h1 {
