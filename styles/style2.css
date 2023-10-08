@@ -6,6 +6,7 @@ body {
 }
 
 form {
+  /* --color-neutral-050 would be closer to reference but is not listed in colours to use */
   background-color: var(--color-neutral-100);
   box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.4);
   padding: 10px;
@@ -13,9 +14,10 @@ form {
 }
 
 section {
+  /* if --color-neutral-050 would be in the listed colours as written above --color-neutral-100 would be closer to reference */
   background-color: var(--color-neutral-200);
   padding: 18px;
-  margin: 40px;
+  margin: 20px;
 }
 
 h1,
@@ -72,14 +74,10 @@ td > img {
   width: 100px;
 }
 
-input[type="submit"] {
-  background-color: var(--color-primary-1-500);
-}
-
 input[type]:not(input[type="checkbox"]),
 select {
   border: 0;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 10px;
 }
 
@@ -92,6 +90,7 @@ button:first-of-type {
   padding-right: 6px;
 }
 
-button:first-of-type:hover {
+button:first-of-type:hover,
+input[type="submit"] {
   background-color: var(--color-primary-1-500);
 }
